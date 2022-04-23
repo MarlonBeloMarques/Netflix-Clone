@@ -20,6 +20,7 @@
 		5469FDDA280F80B000858441 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5469FDD9280F80B000858441 /* HeroHeaderUIView.swift */; };
 		5469FDE02812EEE000858441 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5469FDDF2812EEE000858441 /* APICaller.swift */; };
 		5469FDE2281432F000858441 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5469FDE1281432F000858441 /* Movie.swift */; };
+		5469FDE428143CBA00858441 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5469FDE328143CB900858441 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		5469FDD9280F80B000858441 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		5469FDDF2812EEE000858441 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		5469FDE1281432F000858441 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		5469FDE328143CB900858441 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		5469FDD5280A1D7500858441 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5469FDE328143CB900858441 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				5469FDDA280F80B000858441 /* HeroHeaderUIView.swift in Sources */,
 				5469FDD128064A8800858441 /* DownloadsViewController.swift in Sources */,
 				5469FDB62806424200858441 /* AppDelegate.swift in Sources */,
+				5469FDE428143CBA00858441 /* Extensions.swift in Sources */,
 				5469FDB82806424200858441 /* SceneDelegate.swift in Sources */,
 				5469FDCD280649D800858441 /* UpcomingViewController.swift in Sources */,
 				5469FDE2281432F000858441 /* Movie.swift in Sources */,
