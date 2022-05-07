@@ -29,11 +29,17 @@ class TitleCollectionViewCell: UICollectionViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        posterImageView.frame = posterImageView.bounds
+        posterImageView.frame = contentView.bounds
     }
     
     public func configure(width model: String) {
-        guard let url = URL(string: model) else { return }
+        
+        guard let url = URL(string: "https://image.tmdb.org/t/p/w500/\(model)") else {
+            return
+        }
+        
+        print(url)
+        
         posterImageView.sd_setImage(with: url, completed: nil)
     }
 }
